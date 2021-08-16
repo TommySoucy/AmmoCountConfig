@@ -14,9 +14,9 @@ This mod's config is very important to customize how it works but by default:
  So by default, if you have 5 rounds left in a 10 round mag and the gun has a round in the chamber, the ammo count displayed will be "5 / 10 +1". 
  The "/ 10" indicates how much ammo maximum can be in the mag, and the "+1" says there is a round in the chamber.
 
-![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/main/hub/example0.png "Full Example")
-![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/main/hub/example1.png "Some Example")
-![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/main/hub/example2.png "Empty Example")
+![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/master/hub/example0.png "Full Example")
+![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/master/hub/example1.png "Some Example")
+![alt text](https://github.com/TommySoucy/AmmoCountConfig/blob/master/hub/example2.png "Empty Example")
 
 ## Installation
 
