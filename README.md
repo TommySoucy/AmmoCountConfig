@@ -20,7 +20,7 @@ This mod's config is very important to customize how it works but by default:
 
 ## Installation
 
-1. Download latest from [releases](https://github.com/TommySoucy/MoreCheckmarks/releases)
+1. Download latest from [releases](https://github.com/TommySoucy/AmmoCountConfig/releases)
 2. Download the latest MelonLoader installer from [here](https://github.com/LavaGang/MelonLoader/releases) and install version **_0.3.0_** into your JET installation
 3. Put all files from the .zip into the Mods folder created by MelonLoader
 
