@@ -33,10 +33,10 @@ This mod's config is very important to customize how it works but by default:
 - **_zeroingDelay_**: When aiming down sight or checking/changing zero distance, this is how long it will show the zero distance in place of the ammo count, in seconds. This delay is only relevant if alwaysShow is set to true. It will otherwise use game default.
 
 - **_level_**: This level decides how precise the ammo count shown is. In game, the mag drill level is used to decide how precise of a count we usually get. This setting only takes effect if it is set higher than the original Mag Drills level in game or if forceLevel setting is set to true. Setting level to -1 will keep level to what it is in game.
-      At any lvl, will show full or empty if thats the case.
-      At lvl 0, will give an approx. Almost full, Less than half, etc.
-      At lvl 1, will give the exact amount if under MAX ammo count is under 10, a close approx. if ammo count is above 5, and "less than 5" if that's the case.
-      At lvl 2 and above, will give exact amount.
+ * At any lvl, will show full or empty if thats the case.
+ * At lvl 0, will give an approx. Almost full, Less than half, etc.
+ * At lvl 1, will give the exact amount if under MAX ammo count is under 10, a close approx. if ammo count is above 5, and "less than 5" if that's the case.
+ * At lvl 2 and above, will give exact amount.
 
 - **_forceLevel_**: This setting decides whether to force the above level setting or not. The level is usually only set to the set value if it is higher than the original in-game Mag Drills level (because doesn't have an effect anyway otherwise). This will force the level to be set to the level setting one even if it is lower than the in-game one.
 
