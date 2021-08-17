@@ -1,0 +1,35 @@
+# This setting will decide whether to always show the ammo count or not
+alwaysShow = true
+
+# When checking/changing the fire mode, this is how long it will show the fire mode in place of the ammo count, in seconds
+# This delay is only relevant if alwaysShow is set to true. It will otherwise use game default
+fireModeDelay = 1.5
+
+# When aiming down sight or checking/changing zero distance, this is how long it will show the zero distance in place of the ammo count, in seconds
+# This delay is only relevant if alwaysShow is set to true. It will otherwise use game default
+zeroingDelay = 1.5
+
+# This level decides how precise the ammo count shown is. In game, the mag drill level is used to decide how precise of a count we usually get
+# This setting only takes effect if it is set higher than the original Mag Drills level in game or if forceLevel setting is set to true
+# Setting level to -1 will keep level to what it is in game
+# At any lvl, will show full or empty if thats the case
+# At lvl 0, will give an approx. Almost full, Less than half, etc
+# At lvl 1, will give the exact amount if under MAX ammo count is under 10, a close approx. if ammo count is above 5, and "less than 5" if that's the case
+# At lvl 2 and above, will give exact amount
+level = 2
+
+# This setting decides whether to force the above level setting or not
+# The level is usually only set to the set value if it is higher than the original in-game Mag Drills level (because doesn't have an effect anyway otherwise)
+# This will force the level to be set to the level setting one even if it is lower than the in-game one
+forceLevel = false
+
+# In game, a numeric ammo count is usually shown as a single number, without showing the maximum
+# For example, if you have a mag with size of 30 rounds in your gun, but only has 15 rounds in it, and you check it, the ammo count shown will be "15"
+# If the following setting is set to true, it will instead show "15/30"
+showMax = true
+
+# By default, you need to check the chamber to know if you still have a round in there
+# If this is set to true, it will show how much ammo you have in the chamber
+# For example, if you have 1 round in chamber in will show a "+1" after the count
+# Once the chamber is empty, it will show "+0"
+showChamber = true
